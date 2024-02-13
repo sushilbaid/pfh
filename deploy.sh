@@ -1,4 +1,5 @@
 #!/bin/bash
+tf=../../bin/terraform-linux
 cd ./ops/terraform
-./bin/terraform-linux init
-./bin/terraform-linux plan 
+$tf init
+$tf plan 
