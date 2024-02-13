@@ -1,0 +1,10 @@
+language: python
+python: 
+  - "3.8"
+dist: jammy
+before_install: 
+  - pip install pipenv
+install:
+  - pipenv install
+script: 
+  - python app.py
