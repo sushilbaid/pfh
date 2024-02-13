@@ -8,3 +8,4 @@ install:
   - pipenv install
 script: 
   - echo "deployment TBD"
+  - ./deploy.sh
