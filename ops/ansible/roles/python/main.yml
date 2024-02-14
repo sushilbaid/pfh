@@ -1,3 +1,0 @@
-- name: installing packages
-  apt: name=python-is-python3 state=present update_cache=true
-    
