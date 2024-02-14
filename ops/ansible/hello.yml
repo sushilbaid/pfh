@@ -1,4 +1,4 @@
-- name: Installing python in AWS linux
+- name: Installing python in aws ubuntu
   hosts: h1
   remote_user: ubuntu
   tasks: 
